@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.header .left {
+  margin-left: 20px;
+  margin-top: 0;
+  padding: 20px 10px 10px 10px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+  background-color: #ea290c;
+  color: antiquewhite;
+}
+.header .right {
+  display: flex;
+  margin-right: 20px;
+}
+.right h1 {
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+.right #first {
+  border-bottom-left-radius: 20px;
+}
+.right #last {
+  border-bottom-right-radius: 20px;
+}
+.right h1:hover {
+  cursor: pointer;
+  transition-duration: 0.7s;
+  background-color: #ea290c;
+  color: antiquewhite;
+}

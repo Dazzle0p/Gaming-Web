@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Outfit:wght@100..900&family=Playwrite+AR&display=swap');
+
+.home{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family: "Playwrite AR", serif;
+    font-weight: 400;
+}
+.home h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.home h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.home-img{
+    display: flex;
+    gap: 2rem;
+    margin-top: 30px;
+}
